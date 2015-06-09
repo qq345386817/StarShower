@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C29785051B05C6E7006AEDF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C29785041B05C6E7006AEDF9 /* main.m */; };
+		C29785081B05C6E7006AEDF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C29785071B05C6E7006AEDF9 /* AppDelegate.m */; };
+		C297850B1B05C6E7006AEDF9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C297850A1B05C6E7006AEDF9 /* ViewController.m */; };
+		C297850E1B05C6E7006AEDF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C297850C1B05C6E7006AEDF9 /* Main.storyboard */; };
+		C29785101B05C6E7006AEDF9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C297850F1B05C6E7006AEDF9 /* Images.xcassets */; };
+		C29785131B05C6E7006AEDF9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C29785111B05C6E7006AEDF9 /* LaunchScreen.xib */; };
+		C297851F1B05C6E7006AEDF9 /* _____mTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C297851E1B05C6E7006AEDF9 /* _____mTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C29785191B05C6E7006AEDF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C29784F71B05C6E6006AEDF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C29784FE1B05C6E7006AEDF9;
+			remoteInfo = "流星雨效果m";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C29784FF1B05C6E7006AEDF9 /* 流星雨效果m.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "流星雨效果m.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C29785031B05C6E7006AEDF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C29785041B05C6E7006AEDF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C29785061B05C6E7006AEDF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C29785071B05C6E7006AEDF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C29785091B05C6E7006AEDF9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C297850A1B05C6E7006AEDF9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C297850D1B05C6E7006AEDF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C297850F1B05C6E7006AEDF9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C29785121B05C6E7006AEDF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C29785181B05C6E7006AEDF9 /* 流星雨效果mTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "流星雨效果mTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C297851D1B05C6E7006AEDF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C297851E1B05C6E7006AEDF9 /* _____mTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____mTests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C29784FC1B05C6E7006AEDF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C29785151B05C6E7006AEDF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C29784F61B05C6E6006AEDF9 = {
+			isa = PBXGroup;
+			children = (
+				C29785011B05C6E7006AEDF9 /* 流星雨效果m */,
+				C297851B1B05C6E7006AEDF9 /* 流星雨效果mTests */,
+				C29785001B05C6E7006AEDF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C29785001B05C6E7006AEDF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C29784FF1B05C6E7006AEDF9 /* 流星雨效果m.app */,
+				C29785181B05C6E7006AEDF9 /* 流星雨效果mTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C29785011B05C6E7006AEDF9 /* 流星雨效果m */ = {
+			isa = PBXGroup;
+			children = (
+				C297852B1B05D273006AEDF9 /* Others */,
+				C297852A1B05D26C006AEDF9 /* Controllers */,
+				C29785291B05D268006AEDF9 /* Views */,
+				C29785281B05D261006AEDF9 /* Models */,
+				C29785021B05C6E7006AEDF9 /* Supporting Files */,
+			);
+			path = "流星雨效果m";
+			sourceTree = "<group>";
+		};
+		C29785021B05C6E7006AEDF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C297850F1B05C6E7006AEDF9 /* Images.xcassets */,
+				C29785031B05C6E7006AEDF9 /* Info.plist */,
+				C29785041B05C6E7006AEDF9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C297851B1B05C6E7006AEDF9 /* 流星雨效果mTests */ = {
+			isa = PBXGroup;
+			children = (
+				C297851E1B05C6E7006AEDF9 /* _____mTests.m */,
+				C297851C1B05C6E7006AEDF9 /* Supporting Files */,
+			);
+			path = "流星雨效果mTests";
+			sourceTree = "<group>";
+		};
+		C297851C1B05C6E7006AEDF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C297851D1B05C6E7006AEDF9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C29785281B05D261006AEDF9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C29785291B05D268006AEDF9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C297850C1B05C6E7006AEDF9 /* Main.storyboard */,
+				C29785111B05C6E7006AEDF9 /* LaunchScreen.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C297852A1B05D26C006AEDF9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C29785091B05C6E7006AEDF9 /* ViewController.h */,
+				C297850A1B05C6E7006AEDF9 /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C297852B1B05D273006AEDF9 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				C29785061B05C6E7006AEDF9 /* AppDelegate.h */,
+				C29785071B05C6E7006AEDF9 /* AppDelegate.m */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C29784FE1B05C6E7006AEDF9 /* 流星雨效果m */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C29785221B05C6E7006AEDF9 /* Build configuration list for PBXNativeTarget "流星雨效果m" */;
+			buildPhases = (
+				C29784FB1B05C6E7006AEDF9 /* Sources */,
+				C29784FC1B05C6E7006AEDF9 /* Frameworks */,
+				C29784FD1B05C6E7006AEDF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "流星雨效果m";
+			productName = "流星雨效果m";
+			productReference = C29784FF1B05C6E7006AEDF9 /* 流星雨效果m.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C29785171B05C6E7006AEDF9 /* 流星雨效果mTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C29785251B05C6E7006AEDF9 /* Build configuration list for PBXNativeTarget "流星雨效果mTests" */;
+			buildPhases = (
+				C29785141B05C6E7006AEDF9 /* Sources */,
+				C29785151B05C6E7006AEDF9 /* Frameworks */,
+				C29785161B05C6E7006AEDF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C297851A1B05C6E7006AEDF9 /* PBXTargetDependency */,
+			);
+			name = "流星雨效果mTests";
+			productName = "流星雨效果mTests";
+			productReference = C29785181B05C6E7006AEDF9 /* 流星雨效果mTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C29784F71B05C6E6006AEDF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = lpk;
+				TargetAttributes = {
+					C29784FE1B05C6E7006AEDF9 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					C29785171B05C6E7006AEDF9 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = C29784FE1B05C6E7006AEDF9;
+					};
+				};
+			};
+			buildConfigurationList = C29784FA1B05C6E6006AEDF9 /* Build configuration list for PBXProject "流星雨效果m" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C29784F61B05C6E6006AEDF9;
+			productRefGroup = C29785001B05C6E7006AEDF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C29784FE1B05C6E7006AEDF9 /* 流星雨效果m */,
+				C29785171B05C6E7006AEDF9 /* 流星雨效果mTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C29784FD1B05C6E7006AEDF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C297850E1B05C6E7006AEDF9 /* Main.storyboard in Resources */,
+				C29785131B05C6E7006AEDF9 /* LaunchScreen.xib in Resources */,
+				C29785101B05C6E7006AEDF9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C29785161B05C6E7006AEDF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C29784FB1B05C6E7006AEDF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C297850B1B05C6E7006AEDF9 /* ViewController.m in Sources */,
+				C29785081B05C6E7006AEDF9 /* AppDelegate.m in Sources */,
+				C29785051B05C6E7006AEDF9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C29785141B05C6E7006AEDF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C297851F1B05C6E7006AEDF9 /* _____mTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C297851A1B05C6E7006AEDF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C29784FE1B05C6E7006AEDF9 /* 流星雨效果m */;
+			targetProxy = C29785191B05C6E7006AEDF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C297850C1B05C6E7006AEDF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C297850D1B05C6E7006AEDF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C29785111B05C6E7006AEDF9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C29785121B05C6E7006AEDF9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C29785201B05C6E7006AEDF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C29785211B05C6E7006AEDF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C29785231B05C6E7006AEDF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "流星雨效果m/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C29785241B05C6E7006AEDF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "流星雨效果m/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C29785261B05C6E7006AEDF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "流星雨效果mTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/流星雨效果m.app/流星雨效果m";
+			};
+			name = Debug;
+		};
+		C29785271B05C6E7006AEDF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "流星雨效果mTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/流星雨效果m.app/流星雨效果m";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C29784FA1B05C6E6006AEDF9 /* Build configuration list for PBXProject "流星雨效果m" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C29785201B05C6E7006AEDF9 /* Debug */,
+				C29785211B05C6E7006AEDF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C29785221B05C6E7006AEDF9 /* Build configuration list for PBXNativeTarget "流星雨效果m" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C29785231B05C6E7006AEDF9 /* Debug */,
+				C29785241B05C6E7006AEDF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C29785251B05C6E7006AEDF9 /* Build configuration list for PBXNativeTarget "流星雨效果mTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C29785261B05C6E7006AEDF9 /* Debug */,
+				C29785271B05C6E7006AEDF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C29784F71B05C6E6006AEDF9 /* Project object */;
+}
